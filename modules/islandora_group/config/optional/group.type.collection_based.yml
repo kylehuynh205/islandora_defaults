@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: collection_based
+label: 'Collection Based'
+description: 'Access Control Setup with Collection '
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - collection_based-admin

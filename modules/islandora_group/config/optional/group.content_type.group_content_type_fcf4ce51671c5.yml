@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.collection_based
+    - node.type.islandora_object
+  module:
+    - gnode
+    - node
+id: group_content_type_fcf4ce51671c5
+label: 'Collection Based: Group node (Repository Item)'
+description: 'Adds <em class="placeholder">Repository Item</em> content to groups both publicly and privately.'
+group_type: collection_based
+content_plugin: 'group_node:islandora_object'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true
